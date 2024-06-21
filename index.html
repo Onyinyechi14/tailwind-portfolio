@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="m-0">
+        <!-- Header Section -->
+        <header class="flex flex-col md:flex-row justify-between items-center bg-gray-500 py-4 px-6 mx-auto text-white">
+            <div class="mb-4 md:mb-0 flex items-center space-x-4">
+                <img src="pro.jpeg" class="h-12 w-12 m-0 rounded-full" alt="Profile Image"> 
+                <span class="text-center">Onyinyechi Julius-Okorie</span>
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Projects</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- Hero Section -->
+        <div class="flex-col md:flex-row items-start space-y-4 md:space-y-0 md:space-x-4 p-6">
+            <p class="flex">
+                Dedicated, proactive and hardworking administrative professional offering excellent communication, planning, and prioritization skills demonstrated through 3 years of performance. Skilled at drafting reports and business correspondence, managing mail, updating tracking spreadsheets and analyzing sales trend over time. Exceptional leadership skills with expertise in streamlining workflow to optimize personnel strengths. Strong analytical skill, data visualization. Proficient in data cleaning, pattern recognition/presentation design. Proficient in spreadsheet, SQL, PowerBi. Project manager. Recently, Joined a software development training program at GOMYCODE to become a Full Stack Developer.
+        
+            </p>
+            
+        </div>
+    
+        <!-- Project Section -->
+        <div class="container mx-auto p-2 py-10 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-t-4">
+            <div class="flex flex-col items-center">
+                <img src="Project1.PNG" alt="Project 1" class="rounded mb-4">
+                <div>
+                    <h6 class="font-bold">Portfolio</h6>
+                    <p>Using HTML and normal CSS to create a non-responsive website portfolio.</p>
+                </div>
+            </div>
+    
+            <div class="flex flex-col items-center">
+                <img src="project2.PNG" alt="Project 2" class="rounded mb-4">
+                <div>
+                    <h6 class="font-bold">Restaurant</h6>
+                    <p>Using HTML and normal CSS to build a non-responsive restaurant.</p>
+                </div>
+            </div>
+    
+            <div class="flex flex-col items-center">
+                <img src="project3.PNG" alt="Project 3" class="rounded mb-4">
+                <div>
+                    <h6 class="font-bold">Interior Design</h6>
+                    <p>Using HTML and normal CSS to create an interior design landing page.</p>
+                </div>
+            </div>
+    
+            <div class="flex flex-col items-center">
+                <img src="project4.PNG" alt="Project 4" class="rounded mb-4">
+                <div>
+                    <h6 class="font-bold">Login Form</h6>
+                    <p>Built a login page using HTML and CSS.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="project5.PNG" alt="Project 4" class="rounded mb-4">
+                <div>
+                    <h6 class="font-bold">Shades</h6>
+                    <p>Built a landingpage using HTML and CSS.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="project6.PNG" alt="Project 4" class="rounded mb-4">
+                <div>
+                    <h6 class="font-bold">Flower Shop</h6>
+                    <p>Used HTML and CSS to built a landing page website.</p>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Contact Us Section -->
+        <div class="container mx-auto p-6 border-t-2">
+            <form class="flex flex-col space-y-4">
+                <label for="name" class="font-bold">Name</label>
+                <input type="text" id="name" placeholder="name:" class="p-2 border rounded">
+    
+                <label for="email" class="font-bold">Email</label>
+                <input type="email" id="email" placeholder="email:" class="p-2 border rounded">
+    
+                <label for="message" class="font-bold">Message</label>
+                <textarea id="message" name="message" placeholder="Your message..." class="p-2 border rounded"></textarea>
+            <div class="grid-cols-1">
+                <button type="submit" class="bg-gray-800 text-white py-2 px-4 rounded ">Submit</button>
+            </div>
+            
+            </form>
+        </div>
+    
+        <!-- Footer Section -->
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto text-center">
+                <h6>All Right Reserved. &copy; 2024</h6>
+                <div class="flex justify-center space-x-4 mt-2">
+                    <a href="#" class="hover:text-gray-400"><i class='bx bxl-facebook-square'></i></a>
+                    <a href="#" class="hover:text-gray-400"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="hover:text-gray-400"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
